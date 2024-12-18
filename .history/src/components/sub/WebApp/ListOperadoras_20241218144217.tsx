@@ -38,7 +38,7 @@ export const ListOperadoras = ({ filter, operatorItems, operator}: ListOperadora
 
             {
                     filteredAndSortedList.map((item: any, index:number) => {
-                        console.log('ListOperadoras', item)
+                        // console.log('item', item)
                         return (
                             <div className="w-full flex items-center justify-start gap-2  px-2 py-2 rounded-lg shadow-sm shadow-black border-t border-2 border-black hover:bg-secondary transition-all duration-300"  key={item.country_name + index}>
  
